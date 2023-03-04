@@ -131,12 +131,16 @@ nav {
 .submain {
   background-color: whitesmoke;
   padding: 40px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
 }
 .submain .subDetail {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: start;
+  margin-top: 15px;
 }
 .submain .subDetail .iconMain {
   width: 100px;

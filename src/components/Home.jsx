@@ -21,6 +21,7 @@ const Home = () => {
             </div>
         </section>
         <section className='submain container-fluid'>
+            <p>En diseño dental contamos con:</p>
             <div className='row'>
                 <div className='subDetail col-lg-3 col-md-6'>
                     <img className='iconMain' src="../img/doctor.png" alt="" />
