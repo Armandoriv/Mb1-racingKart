@@ -9,8 +9,8 @@
 
 :root {
   --mainColor: #002166;
-  --mainColorLight:#5767aa;
-  --secondaryColor: #BABABA;
+  --mainColorLight:whitesmoke;
+  --secondaryColor: #0A5574;
   --textColor: #eee;
 }
 
@@ -129,7 +129,7 @@ nav {
 }
 
 .submain {
-  background-color: whitesmoke;
+  background-color: var(--mainColorLight);
   padding: 40px;
   text-align: center;
   font-size: 35px;
@@ -150,6 +150,34 @@ nav {
   font-weight: 600;
 }
 
+.especialidades {
+  background-color: var(--secondaryColor);
+  text-align: start;
+  color: white;
+  padding: 50px;
+  align-items: center;
+}
+.especialidades .especialidadImg {
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.especialidades .list {
+  text-align: start;
+  font-size: 20px;
+}
+.especialidades .list::before {
+  background-color: white;
+  top: 50%;
+  left: -2%;
+  position: absolute;
+  content: "";
+  transform: translateY(-50%);
+  width: 4px;
+  height: 70%;
+  transition: 1s;
+}
+
 @media (max-width: 767px) {
   .main .titleContainer .imgLogo {
     width: 100px;
@@ -159,5 +187,31 @@ nav {
   }
   .main .main-title .subtitle .dental {
     font-size: 35px;
+  }
+  .especialidades {
+    background-color: var(--secondaryColor);
+    text-align: center;
+    color: white;
+    padding: 50px;
+  }
+  .especialidades .list {
+    text-align: center;
+    font-size: 20px;
+  }
+  .especialidades .list::before {
+    background-color: white;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    content: "";
+    transform: translateY(-50%);
+    width: 4px;
+    height: 70%;
+    transition: 1s;
+  }
+  .especialidades .especialidadImg {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
   }
 }/*# sourceMappingURL=styles.css.map */
