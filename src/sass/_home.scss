@@ -9,7 +9,6 @@
         justify-content: center;
         .imgLogo{
             width: 125px;
-            padding-bottom: 5px;
         }
     }
     .main-title{
@@ -29,6 +28,7 @@
         .subtitle{
             display: flex;
             justify-content: center;
+            margin-top: -20px;
             .dental{
                 font-size: 40px;
                 padding-bottom: 50px;
