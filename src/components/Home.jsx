@@ -14,7 +14,9 @@ const Home = () => {
                     <h1 data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" data-aos-delay="1500" className='diseño'>Diseño</h1>
                     <h1 data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" data-aos-delay="1500" className='dental'>Dental</h1>
                 </div>
-                <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="2000">Bienvenido</h2>
+                <div className='subtitle'>
+                    <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="2000">Bienvenido</h2>
+                </div>
             </div>
 
         </section>
