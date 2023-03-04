@@ -24,22 +24,22 @@ const Home = () => {
             <div className='row'>
                 <div className='subDetail col-lg-3 col-md-6'>
                     <img className='iconMain' src="../img/doctor.png" alt="" />
-                    <p>Doctores Amables</p>
+                    <p className='subDetailTxt'>Doctores Amables</p>
 
                 </div>
                 <div className='subDetail col-lg-3 col-md-6'>
                     <img className='iconMain' src="../img/equipo.png" alt="" />
-                    <p>Equipos de últina tecnología</p>
+                    <p className='subDetailTxt'>Equipos de última tecnología</p>
 
                 </div>
                 <div className='subDetail col-lg-3 col-md-6'>
                     <img className='iconMain' src="../img/silla.png" alt="" />
-                    <p>Comodas instalaciones</p>
+                    <p className='subDetailTxt'>Comodas instalaciones</p>
 
                 </div>
                 <div className='subDetail col-lg-3 col-md-6'>
                     <img className='iconMain' src="../img/garantizado.png" alt="" />
-                    <p>Satisfacción garantizada</p>
+                    <p className='subDetailTxt'>Satisfacción garantizada</p>
 
                 </div>
             </div>

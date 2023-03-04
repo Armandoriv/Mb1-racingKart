@@ -45,8 +45,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: start;
         .iconMain{
             width: 100px;
+        }
+        .subDetailTxt{
+            font-size: 20px;
+            font-weight: 600;
         }
     }
 

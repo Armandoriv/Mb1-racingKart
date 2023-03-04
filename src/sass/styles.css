@@ -136,9 +136,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: start;
 }
 .submain .subDetail .iconMain {
   width: 100px;
+}
+.submain .subDetail .subDetailTxt {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
