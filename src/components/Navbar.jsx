@@ -15,12 +15,12 @@ const Navbar = () => {
 
 	return (
 		<header>
-			<h3>LOGO</h3>
+            <a href="/"><img src="../img/logo.png" className='logoNav' alt="" /></a>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#">Nosotros</a>
+				<a href="/#">Tratamientos</a>
+				<a href="/#">Dentistas</a>
+				<a href="/#">Contáctanos</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

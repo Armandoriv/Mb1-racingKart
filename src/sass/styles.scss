@@ -7,10 +7,11 @@
     font-family: "Titillium Web", sans-serif;
 }
 :root{
-    --mainColor : #29335C;
+    --mainColor : #002166;
     --mainColorLight:#5767aa;
-    --secondaryColor: #DB2B39;
+    --secondaryColor: #BABABA;
     --textColor: #eee;
 
 }
 @import "navbar.scss";
+@import "home.scss";
