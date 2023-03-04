@@ -116,6 +116,7 @@ nav {
   padding-right: 5px;
   padding-left: 5px;
   font-size: 45px;
+  font-weight: 500;
 }
 .main .main-title .subtitle {
   display: flex;
@@ -125,6 +126,19 @@ nav {
 .main .main-title .subtitle .dental {
   font-size: 40px;
   padding-bottom: 50px;
+}
+
+.submain {
+  background-color: whitesmoke;
+  padding: 40px;
+}
+.submain .subDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submain .subDetail .iconMain {
+  width: 100px;
 }
 
 @media (max-width: 767px) {
