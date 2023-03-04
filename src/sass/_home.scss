@@ -122,7 +122,7 @@
         .list::before{
             background-color: white ;
             top: 50%;
-            left: 25%;
+            left: 20%;
             position: absolute;
             content: "";
             transform: translateY(-50%);
@@ -131,7 +131,7 @@
             transition: 1s;
         }
         .especialidadImg{
-            width: 400px;
+            width: 360px;
             border-radius: 10px;
             box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
         }
