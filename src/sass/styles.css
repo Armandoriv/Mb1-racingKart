@@ -157,8 +157,12 @@ nav {
   padding: 50px;
   align-items: center;
 }
-.especialidades .especialidadImg {
-  width: 700px;
+.especialidades .containerImgE {
+  display: flex;
+  justify-content: center;
+}
+.especialidades .containerImgE .especialidadImg {
+  width: 600px;
   border-radius: 10px;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
 }
@@ -209,8 +213,12 @@ nav {
     height: 70%;
     transition: 1s;
   }
-  .especialidades .especialidadImg {
-    width: 360px;
+  .especialidades .containerImgE {
+    display: flex;
+    justify-content: center;
+  }
+  .especialidades .containerImgE .especialidadImg {
+    width: 400px;
     border-radius: 10px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
   }

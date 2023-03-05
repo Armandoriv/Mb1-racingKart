@@ -67,10 +67,15 @@
     color: white;
     padding: 50px;
     align-items: center;
-    .especialidadImg{
-        width: 700px;
-        border-radius: 10px;
-        box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+    .containerImgE{
+        display: flex;
+        justify-content: center;
+        .especialidadImg{
+            width: 600px;
+            border-radius: 10px;
+            box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+        }
+
     }
     .list{
         text-align: start;
@@ -130,10 +135,15 @@
             height: 70%;
             transition: 1s;
         }
-        .especialidadImg{
-            width: 360px;
-            border-radius: 10px;
-            box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+        .containerImgE{
+            display: flex;
+            justify-content: center;
+            .especialidadImg{
+                width: 400px;
+                border-radius: 10px;
+                box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+            }
+
         }
 
     }

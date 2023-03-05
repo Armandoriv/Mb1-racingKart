@@ -46,7 +46,7 @@ const Home = () => {
             </div>
         </section>
         <section className='especialidades containter-fluid row'>
-            <div className='col-lg-4 col-md-12'>
+            <div className='col-lg-5 col-md-12'>
                 <h3 className='mb-4' data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">Somos una clinica especializada, que cuenta con las especialidades de:</h3>
                 <p className='list'data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">Odontología</p>
                 <p className='list' data-aos="fade-right" data-aos-once="true" data-aos-duration="1200">Dentista</p>
@@ -58,7 +58,7 @@ const Home = () => {
                 <p className='list' data-aos="fade-right" data-aos-once="true" data-aos-duration="1800">Endodoncia</p>
                 <p className='list' data-aos="fade-right" data-aos-once="true" data-aos-duration="1900">Odontología</p>
             </div>
-            <div className='col-lg-8 col-md-12'>
+            <div className='containerImgE col-lg-7 col-md-12'>
                 <img className='especialidadImg' src="../img/analisis.jpg" alt="" />
 
             </div>
